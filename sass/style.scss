@@ -243,6 +243,26 @@ p {
 
 /* 2. Navbar */
 
+.navbar-brand {
+  background-image: url('../images/democrateam.svg');
+  background-repeat: no-repeat;
+  height: 27px;
+  width: 250px;
+  background-position: center left;
+  display: inline-block;
+
+  span {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+}
+
 .nav-menu {
   padding: 1rem 0;
   transition: all 0.3s ease;
@@ -344,18 +364,14 @@ p {
   }
 
   .navbar-toggler {
-    background: #fff;
-    border: 2px solid #000;
-    border-radius: 60px;
+    background: $purple;
+    border: 2px solid #fff;
+    border-radius: 100%;
     bottom: 24px;
     height: 60px;
     position: fixed;
     right: 24px;
     width: 60px;
-  }
-
-  .navbar-toggler-icon {
-    background: red;
   }
 }
 
