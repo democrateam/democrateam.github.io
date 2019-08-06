@@ -241,6 +241,16 @@ p {
   color: $purple;
 }
 
+.dropdown-toggle {
+  font-size: 10px;
+  margin-top: 12px;
+  padding: 3px 6px;
+
+  @media (min-width: 767px) {
+    margin-top: 4px;
+  }
+}
+
 /* 2. Navbar */
 
 .navbar-brand {
